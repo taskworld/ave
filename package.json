@@ -1,19 +1,19 @@
 {
   "name": "ave",
   "version": "0.0.0-alpha.0",
-  "description": "Describe ave here",
+  "description": "Flexible JavaScript URL router.",
   "main": "lib/index.js",
   "jsnext:main": "es6/index.js",
   "files": [
     "es6",
-    "lib",
-    "umd"
+    "lib"
   ],
   "scripts": {
     "build": "nwb build",
     "clean": "nwb clean",
     "test": "nwb test",
-    "test:watch": "nwb test --server"
+    "test:watch": "nwb test --server",
+    "prepublish": "npm run clean && npm test && npm run build"
   },
   "dependencies": {
     "invariant": "^2.2.1",
@@ -24,8 +24,17 @@
   "devDependencies": {
     "nwb": "0.8.x"
   },
-  "author": "",
-  "homepage": "",
+  "author": "Thai Pangsakulyanont <thai.p@taskworld.com>",
+  "homepage": "https://github.com/taskworld/ave#readme",
   "license": "MIT",
-  "repository": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taskworld/ave.git"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "bugs": {
+    "url": "https://github.com/taskworld/ave/issues"
+  }
 }
