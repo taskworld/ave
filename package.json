@@ -1,0 +1,31 @@
+{
+  "name": "ave",
+  "version": "1.0.0",
+  "description": "Describe ave here",
+  "main": "lib/index.js",
+  "jsnext:main": "es6/index.js",
+  "files": [
+    "es6",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "build": "nwb build",
+    "clean": "nwb clean",
+    "test": "nwb test",
+    "test:watch": "nwb test --server"
+  },
+  "dependencies": {
+    "invariant": "^2.2.1",
+    "lodash.isequal": "^4.1.1",
+    "uniloc": "^0.3.0",
+    "url-mapper": "^1.0.1"
+  },
+  "devDependencies": {
+    "nwb": "0.8.x"
+  },
+  "author": "",
+  "homepage": "",
+  "license": "MIT",
+  "repository": ""
+}
