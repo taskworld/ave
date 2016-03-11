@@ -1,6 +1,6 @@
 {
   "name": "ave",
-  "version": "0.0.0-alpha.0",
+  "version": "0.0.1-0",
   "description": "Flexible JavaScript URL router.",
   "main": "lib/index.js",
   "jsnext:main": "es6/index.js",
