@@ -1,6 +1,6 @@
 {
   "name": "ave",
-  "version": "1.0.0",
+  "version": "0.0.0-alpha.0",
   "description": "Describe ave here",
   "main": "lib/index.js",
   "jsnext:main": "es6/index.js",
